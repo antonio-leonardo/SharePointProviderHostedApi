@@ -1,4 +1,4 @@
-﻿namespace ZCR.SharePointFramework.CSOM.Json
+﻿namespace SharePointProviderHostedApi.Json
 {
     public class JsonMetadataDocument
     {

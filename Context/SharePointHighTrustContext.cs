@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Security.Principal;
 
-using ZCR.SharePointFramework.CSOM.Token;
+using SharePointProviderHostedApi.Token;
 
-namespace ZCR.SharePointFramework.CSOM.Context
+namespace SharePointProviderHostedApi.Context
 {
     /// <summary>
     /// Encapsulates all the information from SharePoint in HighTrust mode.

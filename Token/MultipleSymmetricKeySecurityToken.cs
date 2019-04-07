@@ -6,7 +6,7 @@ using System.IdentityModel.Tokens;
 using System.Collections.ObjectModel;
 using Microsoft.IdentityModel.S2S.Tokens;
 
-namespace ZCR.SharePointFramework.CSOM.Token
+namespace SharePointProviderHostedApi.Token
 {
     /// <summary>
     /// Represents a security token which contains multiple security keys that are generated using symmetric algorithms.

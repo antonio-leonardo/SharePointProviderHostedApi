@@ -2,7 +2,7 @@
 using System.Reflection;
 using System.Xml.Serialization;
 
-namespace ZCR.SharePointFramework.CSOM.Types
+namespace SharePointProviderHostedApi.Types
 {
     internal enum ACSMetadatProtocol
     {

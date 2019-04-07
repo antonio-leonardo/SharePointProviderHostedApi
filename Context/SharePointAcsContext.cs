@@ -8,9 +8,9 @@ using Microsoft.IdentityModel.S2S.Tokens;
 using Microsoft.SharePoint.Client.EventReceivers;
 using Microsoft.IdentityModel.S2S.Protocols.OAuth2;
 
-using ZCR.SharePointFramework.CSOM.Token;
+using SharePointProviderHostedApi.Token;
 
-namespace ZCR.SharePointFramework.CSOM.Context
+namespace SharePointProviderHostedApi.Context
 {
     /// <summary>
     /// Encapsulates all the information from SharePoint in ACS mode.

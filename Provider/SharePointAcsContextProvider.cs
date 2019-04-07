@@ -3,11 +3,11 @@ using System.Web;
 using System.Net;
 using Microsoft.IdentityModel.Tokens;
 
-using ZCR.SharePointFramework.CSOM.Types;
-using ZCR.SharePointFramework.CSOM.Token;
-using ZCR.SharePointFramework.CSOM.Context;
+using SharePointProviderHostedApi.Types;
+using SharePointProviderHostedApi.Token;
+using SharePointProviderHostedApi.Context;
 
-namespace ZCR.SharePointFramework.CSOM.Provider
+namespace SharePointProviderHostedApi.Provider
 {
     /// <summary>
     /// Default provider for SharePointAcsContext.

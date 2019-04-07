@@ -7,10 +7,10 @@ using System.Collections.Generic;
 using System.Web.Script.Serialization;
 using System.Security.Cryptography.X509Certificates;
 
-using ZCR.SharePointFramework.CSOM.Json;
-using ZCR.SharePointFramework.CSOM.Types;
+using SharePointProviderHostedApi.Json;
+using SharePointProviderHostedApi.Types;
 
-namespace ZCR.SharePointFramework.CSOM.Token
+namespace SharePointProviderHostedApi.Token
 {
     internal static class DocumentMetadataOp
     {

@@ -1,4 +1,4 @@
-﻿namespace ZCR.SharePointFramework.CSOM.Types
+﻿namespace SharePointProviderHostedApi.Types
 {
     internal enum ClaimType
     {

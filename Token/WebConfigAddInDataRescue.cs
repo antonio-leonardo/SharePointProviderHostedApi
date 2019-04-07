@@ -3,7 +3,7 @@ using System.IdentityModel.Tokens;
 using System.Security.Cryptography.X509Certificates;
 using X509SigningCredentials = Microsoft.IdentityModel.SecurityTokenService.X509SigningCredentials;
 
-namespace ZCR.SharePointFramework.CSOM.Token
+namespace SharePointProviderHostedApi.Token
 {
     internal static class WebConfigAddInDataRescue
     {

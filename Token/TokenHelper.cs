@@ -14,9 +14,9 @@ using Microsoft.IdentityModel.S2S.Protocols.OAuth2;
 using AudienceRestriction = Microsoft.IdentityModel.Tokens.AudienceRestriction;
 using SecurityTokenHandlerConfiguration = Microsoft.IdentityModel.Tokens.SecurityTokenHandlerConfiguration;
 
-using ZCR.SharePointFramework.CSOM.Types;
+using SharePointProviderHostedApi.Types;
 
-namespace ZCR.SharePointFramework.CSOM.Token
+namespace SharePointProviderHostedApi.Token
 {
     internal static class TokenHelper
     {

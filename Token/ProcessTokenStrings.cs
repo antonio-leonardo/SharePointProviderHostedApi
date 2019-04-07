@@ -7,9 +7,9 @@ using System.Security.Principal;
 using System.Collections.Generic;
 using Microsoft.IdentityModel.S2S.Tokens;
 
-using ZCR.SharePointFramework.CSOM.Types;
+using SharePointProviderHostedApi.Types;
 
-namespace ZCR.SharePointFramework.CSOM.Token
+namespace SharePointProviderHostedApi.Token
 {
     internal static class ProcessTokenStrings
     {

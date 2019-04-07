@@ -4,11 +4,11 @@ using System.Linq;
 using System.Collections.Generic;
 using Microsoft.SharePoint.Client;
 
-using ZCR.SharePointFramework.CSOM.Token;
-using ZCR.SharePointFramework.CSOM.Context;
-using ZCR.SharePointFramework.CSOM.Provider;
+using SharePointProviderHostedApi.Token;
+using SharePointProviderHostedApi.Context;
+using SharePointProviderHostedApi.Provider;
 
-namespace ZCR.SharePointFramework.CSOM
+namespace SharePointProviderHostedApi
 {
     public enum ContextOption
     {
@@ -22,7 +22,7 @@ namespace ZCR.SharePointFramework.CSOM
     /// Contexto SharePoint para Codificação Server-side
     /// </summary>
     /// <typeparam name="TEntity">Classe de Entidade que contenha as definições de Atributos para estabelecimento do contrato com o Back-End SharePoint</typeparam>
-    public class SharePointContextCSOM: IDisposable
+    public class SharePointContextCSOM : IDisposable
     {
         #region ' Declarações e Propriedades da Classe '
 

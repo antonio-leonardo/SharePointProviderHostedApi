@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.SharePoint.Client;
 
-namespace ZCR.SharePointFramework.CSOM.Context
+namespace SharePointProviderHostedApi.Context
 {
     /// <summary>
     /// Encapsulates all the information from SharePoint.
