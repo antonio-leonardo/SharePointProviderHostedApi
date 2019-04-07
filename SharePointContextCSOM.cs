@@ -22,7 +22,7 @@ namespace ZCR.SharePointFramework.CSOM
     /// Contexto SharePoint para Codificação Server-side
     /// </summary>
     /// <typeparam name="TEntity">Classe de Entidade que contenha as definições de Atributos para estabelecimento do contrato com o Back-End SharePoint</typeparam>
-    public class SharePointContextCSOM<TEntity> : IDisposable
+    public class SharePointContextCSOM: IDisposable
     {
         #region ' Declarações e Propriedades da Classe '
 
