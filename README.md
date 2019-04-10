@@ -14,7 +14,8 @@ Instantiate [ClientContext](https://docs.microsoft.com/en-us/previous-versions/o
 SharePointContextCSOM _providerHostedApi = new SharePointContextCSOM(HttpContext.Current, "NameOfList");
 
 //For remote site:
-SharePointContextCSOM _providerHostedApi = new SharePointContextCSOM(HttpContext.Current, "http://remote/site/access", "NameOfList");
+SharePointContextCSOM _providerHostedApi =
+              new SharePointContextCSOM(HttpContext.Current, "http://remote/site/access", "NameOfList");
 
 using(ClientContext ctx = _providerHostedApi.SharePointClientCtx)
 {
